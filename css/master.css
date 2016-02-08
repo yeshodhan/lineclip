@@ -1,0 +1,64 @@
+body {
+    line-height: 1.3em;
+}
+
+.navigation-panel {
+    height: 600px;
+    background-color: #dddddd;
+}
+
+.content-panel {
+    height: 600px;
+    padding-top: 20px;
+}
+
+.custom-ad-panel {
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+.clamp {
+    height: 1.3em;
+    overflow: hidden;
+}
+
+.clamp p {
+    position: relative;
+    line-height: 1.3em;
+}
+
+.clamp .show-more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 20px 1px 45px;
+    background: url('http://www.cssmojo.com/extras/line-clamp_for_non_webkit-based_browsers/ellipsis_bg.png');
+}
+
+.clamp.clamp-1 {
+    height: 1.3em;
+}
+
+.clamp.clamp-2 {
+    height: 2.6em;
+}
+
+.clamp.clamp-2 .show-more {
+    top: 1.3em;
+}
+
+.clamp.clamp-3 {
+    height: 3.9000000000000004em;
+}
+
+.clamp.clamp-3 .show-more {
+    top: 2.6em;
+}
+
+.clamp.clamp-4 {
+    height: 5.2em;
+}
+
+.clamp.clamp-4 .show-more {
+    top: 3.9000000000000004em;
+}
